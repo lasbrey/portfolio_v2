@@ -1,0 +1,57 @@
+body {
+  font-family: antonregular, sans-serif;
+  /* background: #10101a; */
+  color: black;
+  --tw-bg-opacity: 1;
+  background-color: rgba(244, 242, 237, var(--tw-bg-opacity));
+  font-weight: 600;
+}
+.list a {
+  box-shadow: 0 2px 0 0 #000;
+}
+.code span {
+  background-image: linear-gradient(90deg, #f56772, #ba6bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+.secondaryTitle {
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  font-family: PT Serif, serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+.bg-100\% {
+  background-size: 100%;
+}
+.bg-underline2 {
+  background-image: url(img/line.svg);
+}
+.bg-underline4 {
+  background-image: url(img/line2.svg);
+}
+.bg-highlight3 {
+  background-image: url(img/circle.svg);
+}
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgba(244, 242, 237, var(--tw-bg-opacity));
+}
+.sectionSize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
