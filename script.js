@@ -1,19 +1,19 @@
-const audio = new Audio("sound/preload.wav");
+// const audio = new Audio("sound/preload.wav");
 
-//toggle between playing and pausing on button click
-const playBtn = document.querySelector(".controls");
-playBtn.addEventListener(
-  "click",
-  () => {
-    if (audio.paused) {
-      audio.play();
-      audio.autoplay = true;
-    } else {
-      audio.pause();
-    }
-  },
-  false
-);
+// //toggle between playing and pausing on button click
+// const playBtn = document.querySelector(".controls");
+// playBtn.addEventListener(
+//   "click",
+//   () => {
+//     if (audio.paused) {
+//       audio.play();
+//       audio.autoplay = true;
+//     } else {
+//       audio.pause();
+//     }
+//   },
+//   false
+// );
 
 window.addEventListener("load", function () {
   document.querySelectorAll("[toggleElement]").forEach((toggle) => {
